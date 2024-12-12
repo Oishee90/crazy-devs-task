@@ -7,7 +7,8 @@
 /* styles/globals.css */
 body {
   background-color: black;
-  color: white; /* যাতে টেক্সট সাদা দেখা যায় */
+  color: white;
+  
 }
 
 html, body, #__next {

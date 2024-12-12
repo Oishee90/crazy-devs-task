@@ -22,7 +22,7 @@ function Navbar() {
                     </div>
 
                     {/* Navbar Items */}
-                    <div className="hidden md:ml-2 md:mr-2 md:flex flex-1 justify-center md:items-center md:gap-8 lg:gap-16">
+                    <div className="hidden md:ml-14 md:mr-2 md:flex flex-1 justify-center md:items-center md:gap-8 lg:gap-16">
                         <div className="flex dm-sans text-white capitalize dark:text-gray-300 gap-6 lg:gap-8">
                             <a href="#" className="transition-colors duration-300 transform hover:text-slate-300 dark:hover:text-gray-200">Features</a>
                             <a href="#" className="flex items-center gap-1 transition-colors duration-300 transform hover:text-slate-300 dark:hover:text-gray-200">Providers <MdOutlineKeyboardArrowDown /></a>
@@ -33,8 +33,8 @@ function Navbar() {
                     </div>
 
                     {/* Button Section */}
-                    <div className="hidden md:flex md:items-center gap-6 lg:gap-8">
-                        <button className="px-5 py-2 whitespace-nowrap font-medium text-base text-white hover:text-black capitalize transition-colors duration-300 transform bg-none border border-white rounded-3xl hover:bg-white focus:outline-none focus:ring focus:ring-white focus:ring-opacity-80">
+                    <div className="hidden dm-sans md:flex md:items-center gap-6 lg:gap-8">
+                        <button className="px-5 py-2 whitespace-nowrap font-medium text-base text-white hover:text-black capitalize transition-colors duration-300 transform bg-none border-2 border-white rounded-3xl hover:bg-white focus:outline-none focus:ring focus:ring-white focus:ring-opacity-80">
                             Log in
                         </button>
                         <button className="px-3 py-3 flex gap-2 items-center font-medium text-black capitalize transition-colors duration-300 transform bg-white rounded-3xl text-base hover:bg-slate-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
@@ -44,7 +44,7 @@ function Navbar() {
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <div className="md:hidden">
+                    <div className="md:hidden dm-sans">
                         <button 
                             onClick={() => setIsOpen(!isOpen)} 
                             type="button" 
@@ -65,7 +65,7 @@ function Navbar() {
 
                 {/* Mobile Navbar */}
                 {isOpen && (
-                    <div className="flex flex-col gap-4 mt-4 dm-sans text-white capitalize bg-gray-800 px-6 py-4 rounded-lg md:hidden">
+                    <div className="flex flex-col dm-sans gap-4 mt-4 dm-sans text-white capitalize bg-gray-800 px-6 py-4 rounded-lg md:hidden">
                         <a href="#" className="transition-colors duration-300 transform hover:text-slate-300 dark:hover:text-gray-200">Features</a>
                         <a href="#" className="flex items-center gap-1 transition-colors duration-300 transform hover:text-slate-300 dark:hover:text-gray-200">Providers <MdOutlineKeyboardArrowDown /></a>
                         <a href="#" className="transition-colors duration-300 transform hover:text-slate-300 dark:hover:text-gray-200">Blog</a>

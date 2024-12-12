@@ -5,7 +5,7 @@ import Banner from "./Component/Banner";
 
 export default function Home() {
   return (
-   <div  >
+   <div className="bg-black text-white h-[100%]" >
     <div className="container mx-auto">
     <Navbar></Navbar>
     <Banner></Banner>
