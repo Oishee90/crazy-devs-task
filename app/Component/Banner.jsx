@@ -41,7 +41,7 @@ const Banner = () => {
             </div>
 
             {/* Paragraph */}
-            <p className=" text-center text-[#D1D1D1] md:text-base p-3 dm-sans">
+            <p className=" text-center text-[#D1D1D1] md:text-base px-3 dm-sans">
                 Postiz's superior scheduling flow,competitor tracking,and client<br />management make it the best Buffer alternative.
             </p>
             <div className='text-center mt-2'>
