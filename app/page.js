@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Navbar from "./Component/Navbar";
 import Banner from "./Component/Banner";
+import Promo from "./Component/Promo";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     <div className="container mx-auto">
     <Navbar></Navbar>
     <Banner></Banner>
+    <Promo></Promo>
     </div>
 
    </div>
