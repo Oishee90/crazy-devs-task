@@ -4,6 +4,7 @@ import Navbar from "./Component/Navbar";
 import Banner from "./Component/Banner";
 import Promo from "./Component/Promo";
 import Platform from "./Component/Platform";
+import Pricing from "./Component/Pricing";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
     <Banner></Banner>
     <Promo></Promo>
     <Platform></Platform>
+    <Pricing></Pricing>
     </div>
 
    </div>
