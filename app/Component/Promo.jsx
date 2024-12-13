@@ -5,15 +5,15 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Promo = () => {
     return (
-        <div className='py-20 container mx-auto'>
+        <div className='py-20 w-full bg-black text-white h-[100%] '>
             
-            <div className="px-5 relative mt-30 w-full h-full ">
+            <div className="relative pt-30 w-full h-full ">
                     <Image 
                         src="/image/promo.png" 
                         alt="Decorative Line" 
-                        width={1920} 
+                        width={1200} 
                         height={500} 
-                        className="hidden sm:block md:block"  
+                        className="hidden sm:block md:block w-full"  
                     />
                      {/* Image for small devices */}
   <Image 
@@ -24,7 +24,7 @@ const Promo = () => {
     className="block md:hidden sm:hidden "  //  // Hidden on large screens, shown on small screens
   />
                     {/* Content on top of the image */}
-  <div className="absolute left:1/2 sm:left-0 top-1/2 transform -translate-y-1/2 ml-5 md:ml-20 md:w-full px-5  text-white">
+  <div className="absolute left:1/2 sm:left-0 top-1/2 transform -translate-y-1/2 ml-5  px-5  text-white">
   <p className='font-bold text-[12px] md:text-lg lg:text-[22px] plus-jakarta text-white lg:mb-4 '>One-stop platform</p>
   <h2 className="md:text-base relative text-[16px] lg:text-[44px] plus-jakarta font-extrabold text-white mt-2 lg:mt-6">
   {/* Image positioned above the text */}

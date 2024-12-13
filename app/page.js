@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "./Component/Navbar";
 import Banner from "./Component/Banner";
 import Promo from "./Component/Promo";
+import Platform from "./Component/Platform";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <Navbar></Navbar>
     <Banner></Banner>
     <Promo></Promo>
+    <Platform></Platform>
     </div>
 
    </div>

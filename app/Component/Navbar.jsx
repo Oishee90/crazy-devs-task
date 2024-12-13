@@ -37,7 +37,7 @@ function Navbar() {
                         <button className="px-5 py-2 whitespace-nowrap font-medium text-base text-white hover:text-black capitalize transition-colors duration-300 transform bg-none border-2 border-white rounded-3xl hover:bg-white focus:outline-none focus:ring focus:ring-white focus:ring-opacity-80">
                             Log in
                         </button>
-                        <button className="px-3 py-3 flex gap-2 items-center font-medium text-black capitalize transition-colors duration-300 transform bg-white rounded-3xl text-base hover:bg-slate-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                        <button className="px-3 py-2 flex whitespace-nowrap gap-2 items-center font-medium text-black capitalize transition-colors duration-300 transform bg-white rounded-3xl text-base hover:bg-slate-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
                             Get Started
                             <MdKeyboardDoubleArrowRight />
                         </button>
