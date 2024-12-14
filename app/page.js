@@ -7,6 +7,7 @@ import Platform from "./Component/Platform";
 import Pricing from "./Component/Pricing";
 import ChoosePostiz from "./Component/ChoosePostiz";
 import Faq from "./Component/Faq";
+import Footer from "./Component/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
     <Pricing></Pricing>
     <ChoosePostiz></ChoosePostiz>
     <Faq></Faq>
+    <Footer></Footer>
     </div>
 
    </div>
