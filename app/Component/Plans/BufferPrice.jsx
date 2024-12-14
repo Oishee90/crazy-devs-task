@@ -30,7 +30,7 @@ const BufferPrice = () => {
        
     {/* card */}
     {/* 1 start */}
-<div className="md:w-[566px] w-[287px] md:h-[146px] h-[185px]  px-7 py-4 bg-[#242323] border-2 border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-[566px] w-[287px] md:h-[146px] h-[250px] cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
 <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
 <div> 
 <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Free</h1>
@@ -43,7 +43,7 @@ const BufferPrice = () => {
 </div>
 </div>
     {/* 2 start */}
-<div className="md:w-[566px] w-[287px]  md:h-[146px] h-[185px]  px-7 py-4 bg-[#242323] border-2 border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-[566px] w-[287px]  md:h-[146px] h-[250px] cursor-pointer px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
 <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
 <div> 
 <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Essentials</h1>
@@ -57,7 +57,7 @@ const BufferPrice = () => {
 </div>
 </div>
     {/* 3 start */}
-<div className="md:w-[566px] w-[287px] md:h-[146px] h-[185px]   px-7 py-4 bg-[#242323] border-2 border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-[566px] w-[287px] md:h-[146px] h-[250px]  cursor-pointer px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
 <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
 <div> 
 <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Team</h1>
@@ -71,7 +71,7 @@ const BufferPrice = () => {
 </div>
 </div>
     {/* 4 start */}
-<div className="md:w-[566px] w-[287px] md:h-[146px] h-[185px]   px-7 py-4 bg-[#242323] border-2 border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-[566px] w-[287px] md:h-[146px] h-[250px] cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
 <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
 <div> 
 <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Agency</h1>

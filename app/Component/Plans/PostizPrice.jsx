@@ -30,7 +30,7 @@ const PostizPrice = () => {
            
         {/* card */}
         {/* 1 start */}
-<div className="md:w-[566px] w-[287px] md:h-[146px] h-[185px]    px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-[566px] w-[287px] md:h-[146px] h-[200px]  cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
   <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
     <div> 
     <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Standart</h1>
@@ -43,7 +43,7 @@ const PostizPrice = () => {
   </div>
 </div>
         {/* 2 start */}
-<div className="md:w-[566px] w-[287px] md:h-[146px] h-[185px]    px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-[566px] w-[287px] md:h-[146px] h-[200px]  cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
   <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
     <div> 
     <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Team</h1>
@@ -56,7 +56,7 @@ const PostizPrice = () => {
   </div>
 </div>
         {/* 3 start */}
-<div className="md:w-[566px] w-[287px] md:h-[146px] h-[185px]   px-7 py-4 bg-[#242323] borde border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-[566px] w-[287px] md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-[#242323] borde border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
   <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
     <div> 
     <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Pro</h1>
@@ -69,7 +69,7 @@ const PostizPrice = () => {
   </div>
 </div>
         {/* 4 start */}
-<div className="md:w-[566px] w-[287px] md:h-[146px] h-[185px]   px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-[566px] w-[287px] md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
   <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
     <div> 
     <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Ultimate</h1>
@@ -87,7 +87,7 @@ const PostizPrice = () => {
 </div>
        {/* 5 start */}
 
-       <div className="md:w-[566px] w-[287px] md:h-[146px] h-[185px]   px-7 py-4 bg-gradient-to-b from-[#45007C] to-[#1C0033] border border-[#45007C] rounded-xl shadow-md text-white  mt-5 dark:bg-gray-800">
+       <div className="md:w-[566px] w-[287px] md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-gradient-to-b from-[#45007C] to-[#1C0033] border border-[#45007C] rounded-xl shadow-md text-white  mt-5 dark:bg-gray-800">
  <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
    <div> 
    <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Self service installation</h1>
@@ -101,7 +101,7 @@ const PostizPrice = () => {
 </div>
        {/* 6 start */}
 
-       <div className="md:w-[566px] w-[287px]  md:h-[146px] h-[185px]  px-7 py-4 bg-gradient-to-b from-[#6B007C] to-[#280033] border border-[#6B007C] rounded-xl shadow-md text-white  mt-5 dark:bg-gray-800">
+       <div className="md:w-[566px] w-[287px]  md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-gradient-to-b from-[#6B007C] to-[#280033] border border-[#6B007C] rounded-xl shadow-md text-white  mt-5 dark:bg-gray-800">
  <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
    <div> 
    <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Enterprise</h1>
