@@ -20,9 +20,9 @@ export default function Home() {
     <Pricing></Pricing>
     <ChoosePostiz></ChoosePostiz>
     <Faq></Faq>
-    <Footer></Footer>
+   
     </div>
-
+    <Footer></Footer>
    </div>
   );
 }

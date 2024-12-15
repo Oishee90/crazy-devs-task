@@ -7,15 +7,15 @@ import BufferPrice from './Plans/BufferPrice';
 const Pricing = () => {
     return (
         <div className='py-10'>
-            <div>
+            <div className=''>
             <h1 className='text-center mt-7 mb-14 plus-jakarta text-2xl font-bold md:text-3xl lg:text-5xl text-white'>
             Pricing & Plans
         </h1>
-        <div className='flex md:flex-col lg:flex-row flex-col justify-around items-center gap-5 md:gap-2'>
-         <div>
+        <div className='flex  lg:flex-row flex-col justify-around items-center gap-5 md:gap-2'>
+         <div className='w-1/2'>
             <PostizPrice></PostizPrice>
          </div>
-         <div>
+         <div className='w-1/2'>
             <BufferPrice></BufferPrice>
          </div>
         </div>
