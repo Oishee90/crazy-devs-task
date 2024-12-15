@@ -8,6 +8,7 @@ import Pricing from "./Component/Pricing";
 import ChoosePostiz from "./Component/ChoosePostiz";
 import Faq from "./Component/Faq";
 import Footer from "./Component/Footer";
+import Social from "./Component/Social";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
     <Promo></Promo>
     <Platform></Platform>
     <Pricing></Pricing>
+    <Social></Social>
     <ChoosePostiz></ChoosePostiz>
     <Faq></Faq>
    
