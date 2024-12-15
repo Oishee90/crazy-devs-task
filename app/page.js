@@ -13,6 +13,7 @@ import SocialMedia from "./Component/SocialMedia";
 import Team from "./Component/Team";
 import SocialInbox from "./Component/SocialInbox";
 import Summary from "./Component/Summary";
+import ComAlt from "./Component/ComAlt";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
    <Team></Team>
    <SocialInbox></SocialInbox>
    <Summary></Summary>
+   <ComAlt></ComAlt>
     <ChoosePostiz></ChoosePostiz>
     <Faq></Faq>
    
