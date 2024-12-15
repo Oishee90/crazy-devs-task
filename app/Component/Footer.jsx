@@ -4,7 +4,7 @@ import Ready from './Footer/Ready';
 const Footer = () => {
     return (
         <div className='pt-10'>
-           <div className='bg-[#1A1919]  min-h-screen w-full'>
+           <div className='bg-[#1A1919]   w-full'>
             <Ready></Ready>
             </div> 
         </div>

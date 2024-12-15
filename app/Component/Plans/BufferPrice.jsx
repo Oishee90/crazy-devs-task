@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const BufferPrice = () => {
     return (
-        <div className='md:h-[1295px] h-[1478px] w-full bg-[#1A1919]  rounded-2xl text-white'>
+        <div className='md:h-[1295px] h-full w-full bg-[#1A1919]  rounded-2xl text-white'>
         <div className='md:pr-7 md:pl-7 md:pb-7 md:pt-7 p-4'>
         <h1 className='text-2xl lg:text-4xl text-white font-bold plus-jakarta'>Buffer Pricing</h1>
        <div className='md:mt-7 mt-4 flex gap-3 dm-sans items-center'>
@@ -30,7 +30,7 @@ const BufferPrice = () => {
        
     {/* card */}
     {/* 1 start */}
-<div className="md:w-full w-[287px] md:h-[146px] h-[250px] cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-full w-full md:h-[146px] h-[250px] cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
 <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
 <div> 
 <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Free</h1>
@@ -43,7 +43,7 @@ const BufferPrice = () => {
 </div>
 </div>
     {/* 2 start */}
-<div className="md:w-full w-[287px]  md:h-[146px] h-[250px] cursor-pointer px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-full w-full  md:h-[146px] h-[250px] cursor-pointer px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
 <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
 <div> 
 <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Essentials</h1>
@@ -57,7 +57,7 @@ const BufferPrice = () => {
 </div>
 </div>
     {/* 3 start */}
-<div className="md:w-full w-[287px] md:h-[146px] h-[250px]  cursor-pointer px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-full w-full md:h-[146px] h-[250px]  cursor-pointer px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
 <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
 <div> 
 <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Team</h1>
@@ -71,7 +71,7 @@ const BufferPrice = () => {
 </div>
 </div>
     {/* 4 start */}
-<div className="md:w-full w-[287px] md:h-[146px] h-[250px] cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-full w-full md:h-[146px] h-[250px] cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
 <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
 <div> 
 <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Agency</h1>

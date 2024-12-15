@@ -5,7 +5,7 @@ import Image from "next/image";
 const PostizPrice = () => {
     return (
         <div className='md:h-[1295px] h-[1678px] w-full bg-[#1A1919] rounded-2xl text-white'>
-            <div className='md:pr-7 md:pl-7 md:pb-7 md:pt-7 p-4'>
+            <div className='lg:pr-7 lg:pl-7 lg:pb-7 md:pt-7 p-4'>
             <h1 className='text-2xl lg:text-4xl text-white font-bold plus-jakarta'>Postiz Pricing</h1>
            <div className='md:mt-7 mt-4 flex gap-3 dm-sans items-center'>
            <Image 
@@ -30,7 +30,7 @@ const PostizPrice = () => {
            
         {/* card */}
         {/* 1 start */}
-<div className="md:w-full w-[287px] md:h-[146px] h-[200px]  cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-full w-full md:h-[146px] h-[200px]  cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
   <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
     <div> 
     <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Standart</h1>
@@ -43,7 +43,7 @@ const PostizPrice = () => {
   </div>
 </div>
         {/* 2 start */}
-<div className="md:w-full w-[287px] md:h-[146px] h-[200px]  cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-full w-full md:h-[146px] h-[200px]  cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
   <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
     <div> 
     <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Team</h1>
@@ -56,7 +56,7 @@ const PostizPrice = () => {
   </div>
 </div>
         {/* 3 start */}
-<div className="md:w-full w-[287px] md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-[#242323] borde border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-full w-full md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-[#242323] borde border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
   <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
     <div> 
     <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Pro</h1>
@@ -69,7 +69,7 @@ const PostizPrice = () => {
   </div>
 </div>
         {/* 4 start */}
-<div className="md:w-full w-[287px] md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
+<div className="md:w-full w-full md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-[#242323] border border-[#353434] rounded-xl shadow-md text-white md:mt-7 mt-3 dark:bg-gray-800">
   <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
     <div> 
     <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Ultimate</h1>
@@ -87,7 +87,7 @@ const PostizPrice = () => {
 </div>
        {/* 5 start */}
 
-       <div className="md:w-full w-[287px] md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-gradient-to-b from-[#45007C] to-[#1C0033] border border-[#45007C] rounded-xl shadow-md text-white  mt-5 dark:bg-gray-800">
+       <div className="md:w-full w-full md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-gradient-to-b from-[#45007C] to-[#1C0033] border border-[#45007C] rounded-xl shadow-md text-white  mt-5 dark:bg-gray-800">
  <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
    <div> 
    <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Self service installation</h1>
@@ -101,7 +101,7 @@ const PostizPrice = () => {
 </div>
        {/* 6 start */}
 
-       <div className="md:w-full w-[287px]  md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-gradient-to-b from-[#6B007C] to-[#280033] border border-[#6B007C] rounded-xl shadow-md text-white  mt-5 dark:bg-gray-800">
+       <div className="md:w-full w-full md:h-[146px] h-[200px] cursor-pointer  px-7 py-4 bg-gradient-to-b from-[#6B007C] to-[#280033] border border-[#6B007C] rounded-xl shadow-md text-white  mt-5 dark:bg-gray-800">
  <div className="flex md:flex-row flex-col gap-3 justify-between p-4 ">
    <div> 
    <h1 className='font-medium text-lg md:text-xl text-white plus-jakarta'>Enterprise</h1>
