@@ -10,6 +10,7 @@ import Faq from "./Component/Faq";
 import Footer from "./Component/Footer";
 import Social from "./Component/Social";
 import SocialMedia from "./Component/SocialMedia";
+import Team from "./Component/Team";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
     <Pricing></Pricing>
     <Social></Social>
    <SocialMedia></SocialMedia>
+   <Team></Team>
     <ChoosePostiz></ChoosePostiz>
     <Faq></Faq>
    
