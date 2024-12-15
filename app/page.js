@@ -12,6 +12,7 @@ import Social from "./Component/Social";
 import SocialMedia from "./Component/SocialMedia";
 import Team from "./Component/Team";
 import SocialInbox from "./Component/SocialInbox";
+import Summary from "./Component/Summary";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
    <SocialMedia></SocialMedia>
    <Team></Team>
    <SocialInbox></SocialInbox>
+   <Summary></Summary>
     <ChoosePostiz></ChoosePostiz>
     <Faq></Faq>
    
