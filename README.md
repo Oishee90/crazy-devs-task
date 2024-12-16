@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Postiz - A Next.js Project
 
-## Getting Started
+Postiz is a web application developed using **Next.js** . It aims to provide a superior scheduling flow, competitor tracking, and client management system, making it the best alternative to Buffer.
 
-First, run the development server:
+## Features
+- Superior **scheduling flow**.
+- **Competitor tracking**.
+- **Client management**.
+- Smooth and lightweight animations using `react-awesome-reveal`.
+- Fully responsive design.
+- Vercel deployment for fast and reliable hosting.
 
-```bash
+## Tech Stack
+- **Frontend**: Next.js, React
+- **Animations**: React-awesome-reveal
+- **Deployment**: Vercel
+
+## Installation
+
+To run the project locally, follow these steps:
+
+1. **Clone the repository**:
+   Clone the repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/your-username/postiz.git
+
+2. **Navigate to the project folder**:
+  After cloning the repository, go to the project folder:
+  cd postiz
+
+3. **Install dependencies**:
+ Install the required dependencies by running:
+ npm install
+
+4. **Run the development server**:
+After installing the dependencies, you can run the development server locally:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This will start the project locally, and you can view it at:
+http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Demo : `[Postiz Live Demo](https://crazy-devs-task.vercel.app/)`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
