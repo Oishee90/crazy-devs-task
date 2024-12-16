@@ -38,6 +38,9 @@ npm run dev
 This will start the project locally, and you can view it at:
 http://localhost:3000
 
-## Live Demo : `[Postiz Live Demo](https://crazy-devs-task.vercel.app/)`
+## Live Demo
+
+[Postiz Live Demo](https://crazy-devs-task.vercel.app/)
+
 
 
