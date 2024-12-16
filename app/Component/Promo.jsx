@@ -2,11 +2,13 @@
 import React from 'react';
 import Image from "next/image";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { Fade, Slide, Zoom} from "react-awesome-reveal";
 
 const Promo = () => {
     return (
-        <div className='py-20 w-full bg-black text-white h-[100%] '>
-            
+     
+        <div className='py-20 w-full bg-black text-white h-[100%] p-4 '>
+           
             <div className="relative pt-30 w-full h-full ">
                     <Image 
                         src="/image/promo.png" 
@@ -29,12 +31,12 @@ const Promo = () => {
   <h2 className="md:text-base relative text-[16px] lg:text-[44px] plus-jakarta font-extrabold text-white mt-2 lg:mt-6">
   {/* Image positioned above the text */}
   <span className="absolute md:top-[-6px] lg:top-[-23px] left-[-21px] w-[71.95px] h-[34.68px] lg:w-full">
-    <Image 
+   <Zoom delay={200} triggerOnce={true}><Image 
       src="/image/Circle 8.png" 
       alt="Decorative Line" 
       width={153} 
       height={64} 
-    />
+    /></Zoom> 
   </span> Postiz is an open-source tool<br />
   <span className="lg:mt-5 block mt-1">for social media scheduling</span>
 </h2>
@@ -49,7 +51,9 @@ const Promo = () => {
     </div>
   </div>
                 </div> 
+              
         </div>
+      
     );
 };
 

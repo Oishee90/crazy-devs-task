@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import Image from "next/image";
+import {  Zoom} from "react-awesome-reveal";
 
 const Platform = () => {
     return (
@@ -10,7 +11,8 @@ const Platform = () => {
             Platform Comparison
         </h1>
         <div className='flex sm:flex-row flex-col  items-center gap-2 md:gap-4 relative'>
-            <div className="w-full sm:h-[396px] h-[292px] rounded-3xl px-4 py-3 text-white shadow-md"  
+    
+            <div className="w-full sm:h-[396px] h-[292px] rounded-3xl px-4 py-3  cursor-pointer text-white shadow-md"  
                 style={{
                     background: "linear-gradient(90deg, #24005e 0%, #5608d5 100%)",
                 }}>
@@ -32,6 +34,7 @@ const Platform = () => {
                     </p>
                 </div>
             </div>
+          
             <div className="w-full sm:h-[396px] h-[292px] rounded-3xl px-4 py-3 bg-[#1A1919] text-white shadow-md">
                 <div className='p-4 md:pt-10 md:pb-10 md:pr-10 md:pl-10'>
                     <div className='w-full'>
@@ -52,10 +55,11 @@ const Platform = () => {
                 </div>
             </div>
             {/* VS */}
+           
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center'>
-                <h1 className='bg-[#0E0E0E] rounded-2xl md:w-[50px] md:h-[50px]  w-[40px] h-[40px] flex items-center justify-center text-white font-extrabold md:text-xl text-lg dm-sans'>
+            <Zoom delay={600} triggerOnce={true}> <h1 className='bg-[#0E0E0E] rounded-2xl md:w-[50px] md:h-[50px]  w-[40px] h-[40px] flex items-center justify-center text-white font-extrabold md:text-xl text-lg dm-sans'>
                     VS
-                </h1>
+                </h1></Zoom>
             </div>
         </div>
     </div>

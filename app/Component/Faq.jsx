@@ -1,19 +1,21 @@
 /* eslint-disable react/no-unescaped-entities */
+"use client"
 import React from 'react';
 import Image from "next/image";
+import {  Zoom} from "react-awesome-reveal";
 const Faq = () => {
     return (
-        <div className='py-10 px-5'>
+        <div className='py-10 p-4'>
             <div className='flex flex-col lg:flex-row items-center lg:items-start justify-between gap-5 lg:gap-14'>
                 <div className='w-full lg:w-1/4 flex-col items-center justify-center flex'>
           <h1 className='lg:text-5xl font-bold plus-jakarta text-3xl text-[white] text-center lg:text-left'>Frequently asked questions</h1>
-          <Image 
+          <Zoom  delay={300} triggerOnce={true}>  <Image 
     src="/image/fq.png" 
     alt="Left Bottom Image" 
     width={225} 
     height={60} 
     className='mt-3 lg:mt-6 w-[129px] h-[33px] lg:w-[223px] lg:h-[57]  '
-  />
+  /></Zoom>
                 </div>
                 <div className='w-full lg:w-3/4'>
                 <div className="space-y-3">

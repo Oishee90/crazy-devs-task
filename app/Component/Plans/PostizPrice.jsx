@@ -2,8 +2,10 @@
 import React from 'react';
 import Image from "next/image";
 
+
 const PostizPrice = () => {
     return (
+      
         <div className='md:h-[1295px] h-[1678px] w-full bg-[#1A1919] rounded-2xl text-white'>
             <div className='lg:pr-7 lg:pl-7 lg:pb-7 md:pt-7 p-4'>
             <h1 className='text-2xl lg:text-4xl text-white font-bold plus-jakarta'>Postiz Pricing</h1>

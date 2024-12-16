@@ -5,7 +5,7 @@ import BufferCom from './Compare/BufferCom';
 
 const ComAlt = () => {
     return (
-        <div className='py-20'>
+        <div className='pt-10 p-4 '>
         <div className=''>
         <h1 className='text-center mt-7 mb-14 plus-jakarta text-2xl font-bold md:text-3xl lg:text-5xl text-white'>
         Compare Alternatives
